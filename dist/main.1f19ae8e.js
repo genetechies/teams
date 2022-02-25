@@ -155,7 +155,7 @@ var option = {
       name: "Python, Electron",
       max: 100
     }, {
-      name: "Php, C#, MATLAB",
+      name: "Php, .NET(C#), MATLAB",
       max: 100
     }, {
       name: "uniapp, minprogram, hybrid, RN, Electron",
@@ -170,7 +170,7 @@ var option = {
     type: "radar",
     // areaStyle: {normal: {}},
     data: [{
-      value: [90, 85, 80, 75, 70, 65, 60, 70],
+      value: [90, 85, 80, 75, 70, 70, 65, 70],
       name: "能力雷达"
     }]
   }]
@@ -205,7 +205,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61475" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57841" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

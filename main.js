@@ -26,7 +26,7 @@ var option = {
       { name: "Java, C++", max: 100 },
       { name: "Webpack, Vite, Node, KOA", max: 100 },
       { name: "Python, Electron", max: 100 },
-      { name: "Php, C#, MATLAB", max: 100 },
+      { name: "Php, .NET(C#), MATLAB", max: 100 },
       { name: "uniapp, minprogram, hybrid, RN, Electron", max: 100 },
       { name: "MongoDB, MySQL, SQLServer", max: 100 },
     ],
@@ -38,7 +38,7 @@ var option = {
       // areaStyle: {normal: {}},
       data: [
         {
-          value: [90, 85, 80, 75, 70, 65, 60, 70],
+          value: [90, 85, 80, 75, 70, 70, 65, 70],
           name: "能力雷达",
         },
       ],
