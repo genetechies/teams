@@ -139,11 +139,20 @@
     }
 
     .skills-for-dotnet .personal-skill-wrapper p {
+      display: flex;
+      align-items: center;
       border-left: 4px solid #654dee;
       padding-left: 6px;
       margin-bottom: 0.5em;
       font-size: medium;
       font-weight: 700;
+    }
+
+    .skills-for-dotnet .personal-skill-wrapper p .note {
+      padding-left: 4px;
+      margin-left: 6px;
+      font-size: 12px;
+      color: #999;
     }
 
     .skills-for-dotnet .personal-skill-wrapper ul {
@@ -400,7 +409,7 @@
       <h2>.NET技术熟悉程度</h2>
 
       <div class="personal-skill-wrapper">
-        <p>朱荣富</p>
+        <p>朱荣富 <span class="note">2年使用</span></p>
 
         <ul>
           <li>1. 大学学过《C#程序设计教程》, 能利用 .NET Framework 4.5 和 SQL Server 2010 做出一个图书管理系统</li>
@@ -410,7 +419,7 @@
       </div>
 
       <div class="personal-skill-wrapper">
-        <p>梁许杰</p>
+        <p>梁许杰 <span class="note">4年使用</span></p>
 
         <ul>
           <li>1. 熟悉多线程编程及网络通信</li>
